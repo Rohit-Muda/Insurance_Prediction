@@ -12,4 +12,3 @@ model.fit(X_train_Scaled,y_train)
 
 with open(r"C:\Users\DELL\OneDrive\Desktop\Projects\Insurance_Prediction\artifacts\model.pkl",'wb') as f:
     pickle.dump(model,f)
-

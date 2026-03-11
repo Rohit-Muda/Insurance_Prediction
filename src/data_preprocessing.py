@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt;
 from sklearn.model_selection import train_test_split;
 
 def load_split_data():
-    df=pd.read_csv("C:\\Users\\DELL\\OneDrive\\Desktop\\Projects\\Insurance_Prediction\\data\\raw\\Insurance_Policy.csv");
+    df=pd.read_csv("../data/raw/Insurance_Policy.csv");
     # print(df.head());
 
     X=df[['Age','Annual_Income_LPA','Policy_Term_Years','Sum_Assured_Lakhs']]
